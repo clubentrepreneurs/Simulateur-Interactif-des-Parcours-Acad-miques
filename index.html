@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simulateur Académique</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Simulateur Interactif des Parcours Académiques</h1>
+      <p>Explorez les filières et découvrez vos débouchés professionnels !</p>
+    </header>
+
+    <main>
+      <!-- Section 1 : Questionnaire -->
+      <section id="questionnaire">
+        <h2>Commencez avec le questionnaire</h2>
+        <p>
+          Répondez à quelques questions pour explorer des parcours adaptés :
+        </p>
+        <button id="startQuiz">Commencer</button>
+      </section>
+
+      <!-- Section 2 : Résultats -->
+      <section id="results" class="hidden">
+        <h2>Résultats suggérés</h2>
+        <ul id="suggestedFields">
+          <!-- Résultats générés dynamiquement -->
+        </ul>
+        <button id="exploreFields">Explorer ces filières</button>
+      </section>
+
+      <!-- Section 3 : Exploration des filières -->
+      <section id="fields" class="hidden">
+        <h2>Parcours académiques</h2>
+        <div id="fieldDetails">
+          <!-- Détails de chaque filière -->
+        </div>
+        <button id="backToResults">Retour aux résultats</button>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Simulateur Académique - Créé par vous !</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
